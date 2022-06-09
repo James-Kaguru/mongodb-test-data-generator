@@ -1,17 +1,21 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@faker-js/faker': ^7.2.0
   '@types/express': ^4.17.13
   '@types/node': ^17.0.41
+  dotenv: ^16.0.1
   mongoose: ^6.3.6
   nodemon: ^2.0.16
   ts-node: ^10.8.1
   typescript: ^4.7.3
 
 dependencies:
+  dotenv: 16.0.1
   mongoose: 6.3.6
 
 devDependencies:
+  '@faker-js/faker': 7.2.0
   '@types/express': 4.17.13
   '@types/node': 17.0.41
   nodemon: 2.0.16
@@ -25,6 +29,11 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       '@jridgewell/trace-mapping': 0.3.9
+    dev: true
+
+  /@faker-js/faker/7.2.0:
+    resolution: {integrity: sha512-dzjQ0LFT+bPLWg0yyV3MpxaLJp/+VW4a0SnjNSWJ4YpJ928LXDOZAN+kB2/JPPisI3Ra0w2BxbD4M9J7o0jcpw==}
+    engines: {node: '>=14.0.0', npm: '>=6.0.0'}
     dev: true
 
   /@jridgewell/resolve-uri/3.0.7:
@@ -394,6 +403,11 @@ packages:
     dependencies:
       is-obj: 2.0.0
     dev: true
+
+  /dotenv/16.0.1:
+    resolution: {integrity: sha512-1K6hR6wtk2FviQ4kEiSjFiH5rpzEVi8WW0x96aztHVMhEspNpc4DVOUTEHtEva5VThQ8IaBX1Pe4gSzpVVUsKQ==}
+    engines: {node: '>=12'}
+    dev: false
 
   /duplexer3/0.1.4:
     resolution: {integrity: sha512-CEj8FwwNA4cVH2uFCoHUrmojhYh1vmCdOaneKJXwkeY1i9jnlslVo9dx+hQ5Hl9GnH/Bwy/IjxAyOePyPKYnzA==}
