@@ -1,0 +1,29 @@
+{
+  "name": "mongodb-test-data-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/James-Kaguru/mongodb-test-data-generator.git"
+  },
+  "author": "James Kaguru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/James-Kaguru/mongodb-test-data-generator/issues"
+  },
+  "homepage": "https://github.com/James-Kaguru/mongodb-test-data-generator#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.41",
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "mongoose": "^6.3.6"
+  }
+}
